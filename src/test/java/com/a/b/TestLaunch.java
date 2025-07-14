@@ -10,7 +10,7 @@ public class TestLaunch {
 	public void testLaunch() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demo.automationtesting.in/");
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		driver.quit();
 		
 	}
